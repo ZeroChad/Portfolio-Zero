@@ -9,28 +9,24 @@ const projects = [
     title: "Digital Document Management System",
     description: "Full-stack web application with Ollama Ai",
     image: Capstone,
-    draggable: false,
     tags: ["React", "Django", "MYSQL", "Docker", "Tailwindcss", "Ollama"]
   },
   { 
     title: "MBGX Exam Application",
     description: "An online examination platform for MBG Group",
     image: MGBDashboard,
-    draggable: false,
     tags: ["React", "Django", "MySQL", "Jquery", "OJT"]
   },
   {
     title: "MGBGX Management System",
     description: "Document management system for MBG Group",
     image: MGBManagement,
-    draggable: false,
     tags: ["Vue", "PHP", "Laravel", "MySQL", "OJT"]
   },
   {
     title: "Attendance/Payroll System",
     description: "Creating my own Attendance/Payroll System",
     image: Maintenance,
-    draggable: false,
     tags: ["Ongoing"]
   }
 ];
