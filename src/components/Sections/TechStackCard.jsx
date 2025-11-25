@@ -13,7 +13,7 @@ export default function TechStackCard() {
         My tech stack I use on my projects
       </p>
 
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {techStack.map((tech) => (
           <div
             key={tech.name}

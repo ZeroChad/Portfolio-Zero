@@ -5,18 +5,19 @@ import { FolderGit2, Helicopter } from "lucide-react";
 
 export default function ProjectCard() {
     return(
-   <Card className="flex-1">
-              <div className="flex items-center gap-2 mb-3">
-                <div className="text-2xl"><FolderGit2 /></div>
+   <Card>
+              <div className="flex items-center gap-2 mb-2">
+                <div className="text-2xl"><FolderGit2 className="w-5 h-5 text-purple-400" /></div>
                 <h3 className="text-lg font-bold">Projects</h3>
               </div>
               <p className="text-sm text-slate-400 mb-4">Here are some of the projects I have worked on</p>
               
-              <div className="grid grid-cols-2 gap-3 mb-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
                 <div className="aspect-video bg-gradient-to-br from-blue-500/20 to-blue-500/20 rounded-xl border border-blue-500/20">
                 <img
                 src={MGBDashboard}
                 draggable="false"
+                className="w-full h-full object-cover rounded-x1"
                 >
                 </img>
                 </div>
@@ -24,6 +25,7 @@ export default function ProjectCard() {
                 <img
                 src={Capstone}
                 draggable="false"
+                className="w-full h-full object-cover rounded-x1"
                 >
                 </img>
                 </div>

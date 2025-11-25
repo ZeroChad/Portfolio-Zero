@@ -24,7 +24,7 @@ export default function ContactCard() {
                   </div>
                   <div className="flex-1 text-left">
                     <div className="text-xs text-slate-500 mb-0.5">Email</div>
-                    <div className="text-sm font-medium text-slate-200">drakeescarda13@gmail.com</div>
+                    <div className="text-sm font-medium text-slate-200 break-all">drakeescarda13@gmail.com</div>
                   </div>
                   <div className="text-xs text-slate-500">Click to copy</div>
                 </button>

@@ -4,7 +4,7 @@ import workProcess from "@/data/wpc";
 
 export default function WorkProcessCard() {
   return (
-    <Card className="min-h-[700px]">
+    <Card className="min-h-[360px] sm:min-h-[520px] lg:min-h-[680px]">
       <div className="flex items-center gap-2 mb-2">
         <div className="text-2xl">
           <Cog className="animate-spin" />
